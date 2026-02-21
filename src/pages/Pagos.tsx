@@ -1,5 +1,5 @@
 import React from "react";
-import { Coffee, Heart, Code2, ShieldCheck, Download } from "lucide-react";
+import { Coffee, Heart, Code2, Download } from "lucide-react";
 import { useTheme } from "../components/useTheme";
 import miQR from "../assets/qr_code.jpeg";
 

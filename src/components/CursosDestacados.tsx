@@ -6,7 +6,6 @@ import libroNavidadImg from "../assets/libro-navidad.jpg";
 import recetasNavidenasImg from "../assets/recetas-navidenas.jpg";
 import recetasRentablesImg from "../assets/recetas-rentables.jpg";
 import bisuteriaImg from "../assets/bisuteria.jpg";
-import slider3Img from "../assets/slider3.jpg";
 
 const courses = [
   {
