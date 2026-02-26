@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaHome, FaImages, FaUserGraduate, FaEnvelope } from "react-icons/fa";
+import { FaHome, FaImages, FaUserGraduate, FaEnvelope, FaFileCode } from "react-icons/fa";
 
 const NavBar = () => {
   const [hoveredIndex, setHoveredIndex] = useState<number | null>(null);
@@ -10,6 +10,7 @@ const NavBar = () => {
   const menuItems = [
     { path: "/", label: "Inicio", icon: FaHome },
     { path: "/", label: "Joyería Artesanal", icon: FaImages },
+    { path: "/fotos", label: "Material Digital", icon: FaFileCode },
     { path: "/contacto", label: "Musica con IA", icon: FaEnvelope },
     { path: "/inscripciones", label: "Nosotros", icon: FaUserGraduate },
   ];

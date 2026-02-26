@@ -160,6 +160,12 @@ const Footer: React.FC = () => {
                 Joyería Artesanal
               </Link>
               <Link
+                to="/fotos"
+                className={`block transition-colors hover:text-blue-500 ${theme === "dark" ? "text-gray-300" : "text-gray-700"}`}
+              >
+                Material Digital
+              </Link>
+              <Link
                 to="/contacto"
                 className={`block transition-colors hover:text-blue-500 ${theme === "dark" ? "text-gray-300" : "text-gray-700"}`}
               >
